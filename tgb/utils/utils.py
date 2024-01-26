@@ -81,7 +81,13 @@ def get_args():
     parser.add_argument(
         "-d", "--data", type=str, help="Dataset name", default="tgbl-wiki"
     )
-    parser.add_argument("--lr", type=float, help="Learning rate", default=1e-4)
+    parser.add_argument(
+        "--root_dir",
+        type=str,
+        help="Root dataset folder (absolute path)",
+        default="dataset",
+    )
+    parser.add_argument("--lr", type=float, help="Learning rate", default=1e-5)
     parser.add_argument("--bs", type=int, help="Batch size", default=200)
     parser.add_argument(
         "--k_value", type=int, help="k_value for computing ranking metrics", default=10
