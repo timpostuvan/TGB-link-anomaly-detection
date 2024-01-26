@@ -1,6 +1,6 @@
 # Temporal Graph Benchmark With Link Anomaly Detection Task
 
-## Introduction
+## Overview
 This repository contains code for link anomaly detection task, integrated into Temporal Graph Benchmark (TGB).
 The code is based on [TGB repository](https://github.com/shenyangHuang/TGB).
 
@@ -47,7 +47,7 @@ python link_anomaly_generator.py  \
 --output_root <OUTPUT-DIR>
 ```
 
-The anomalies are generated for the validation and test splits according to the 70/15/15 data split. The data is saved under `<OUTPUT-DIR>` directory.
+The anomalies are generated for the validation and test splits according to the 70/15/15 data split. The data is saved under `<OUTPUT-DIR>` directory, which should be specified as an absolute path.
 
 
 ## Running Example Methods
