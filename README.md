@@ -52,4 +52,4 @@ The anomalies are generated for the validation and test splits according to the 
 
 ## Running Example Methods
 - For the link anomaly detection task, see the [`examples/linkanomdet`](https://github.com/timpostuvan/TGB-link-anomaly-detection/tree/main/examples/linkanomdet) directory for an example script to run TGN model on a TGB dataset. Note that the example requires generated anomalies, which can be obtained by running the example command in Generating Anomalies section.
-- For all other baselines, please see the [TGB-link-anomaly-detection-baselines](https://github.com/timpostuvan/TGB-link-anomaly-detection-baselines) repository.
+- For all other baselines, please see the [CTDG-link-anomaly-detection](https://github.com/timpostuvan/CTDG-link-anomaly-detection) repository.
